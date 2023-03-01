@@ -55,7 +55,7 @@ void operate_on_level(const binary_tree_t *tree, size_t lvl, void (*func)(int))
  * @tree: root of tree or subtree
  * @func: pointer to function to be applied
  */
-void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 {
 	size_t tree_h, i;
 
